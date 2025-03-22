@@ -1,54 +1,30 @@
-# React + TypeScript + Vite
+УЧИМСЯ РАБОТАТЬ с LOCALSTORAGE: гайд на React с нуля    
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+В этом видео разбираем, как работать с localStorage и sessionStorage — двумя мощными инструментами для хранения данных на стороне клиента. Узнайте:   
+✅ Как сохранять и получать данные.   
+✅ В чем разница между localStorage и sessionStorage.   
 
-Currently, two official plugins are available:
+Ссылка на видео: https://youtu.be/7mtthfKukHQ   
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Репа проекта: https://github.com/Salimov-dev/browser-router   
 
-## Expanding the ESLint configuration
+Мой ТГ: https://t.me/Rogooo   
+Мой канал на youtube: https://www.youtube.com/@salimov-dev   
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+00:00 Вступление   
+00:28 Инициализация проекта   
+01:48 Подготавливаем проект    
+05:27 Знакомимся с LocalStorage   
+07:10 Сохраняем состояние collapsed menu в LocalStorage   
+09:58 Используем состояние collapsed menu из LocalStorage   
+12:52 Отличия LocalStorage от SessionStorage   
+13:20 Выносим sidebar в отдельный компонент   
+14:50 Создаём новый компонент AddObject   
+17:45 Учимся работать с объектами parse() и stringify()   
+21:35 Очищаем LocalStorage.clear()   
+22:45 Получаем длинну LocalStorage.length   
+23:16 Получаем элемент по LocalStorage.key()   
+23:45 Удаляем элемент LocalStorage.removeItem()   
+25:11 Работаем с SessionStorage   
+26:30 Конец   
+   
