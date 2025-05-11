@@ -28,3 +28,5 @@
 25:11 Работаем с SessionStorage   
 26:30 Конец   
    
+![image](https://github.com/user-attachments/assets/ef73c196-2930-49b4-b5bf-d9c8daf330c0)
+
